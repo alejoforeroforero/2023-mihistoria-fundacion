@@ -1,10 +1,10 @@
-import { header } from "./classes/Header.js?n=1";
-import { menu } from "./classes/Menu.js?n=1";
-import { contenido } from "./classes/Contenido.js?n=1";
-import { tag } from "./componentes/tag.js?n=1";
-import { pintarHome } from "./secciones/home.js?n=1";
-import { pintarAbout } from "./secciones/about.js?n=1";
-import { pintarContacto } from "./secciones/contacto.js?n=1";
+import { header } from "./classes/Header.js?n=2";
+import { menu } from "./classes/Menu.js?n=2";
+import { contenido } from "./classes/Contenido.js?n=2";
+import { tag } from "./componentes/tag.js?n=2";
+import { pintarHome } from "./secciones/home.js?n=2";
+import { pintarAbout } from "./secciones/about.js?n=2";
+import { pintarContacto } from "./secciones/contacto.js?n=2";
 
 empezar();
 

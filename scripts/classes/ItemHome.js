@@ -1,4 +1,4 @@
-import { tag } from "../componentes/tag.js?n=1";
+import { tag } from "../componentes/tag.js?n=2";
 
 export class ItemHome{
 

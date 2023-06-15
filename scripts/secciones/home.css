@@ -24,10 +24,13 @@
     position: relative;
     height: 400px;
     max-height: 400px;
-    width:100%;
+    width:80%;
+    margin: auto;
     overflow: hidden;
     background-size: cover;
     margin-bottom: 150px;
+    background-color: rgba(232, 240, 247,0.8);
+    border-radius: 30px;
 }
 
 .home-item img{
@@ -35,7 +38,8 @@
     position: absolute;
     left: 0px;
     top:0px;
-    filter: brightness(50%) blur(2px) sepia(90%);
+    filter: brightness(90%) blur(2px) sepia(90%);
+    opacity: 0;
     z-index: 1;
 }
 
@@ -50,6 +54,7 @@
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: bold;
+    color:#5a8184;
 }
 
 .home-item button{

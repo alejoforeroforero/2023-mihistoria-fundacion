@@ -1,6 +1,6 @@
-import { tag } from "../componentes/tag.js?n=2";
-import { bajarCss } from "../componentes/css.js?n=2";
-import { contenido } from "../classes/Contenido.js?n=2";
+import { tag } from "../componentes/tag.js?n=7";
+import { bajarCss } from "../componentes/css.js?n=7";
+import { contenido } from "../classes/Contenido.js?n=7";
 
 export function pintarAbout() {
   const enlace = "./scripts/secciones/about.css";
@@ -14,5 +14,5 @@ function dibujarAbout(){
     divAbout.className = "about";
 
     const img = tag("img", divAbout);
-    img.src = "../../assets/imgs/sobre-nosotros.jpg";
+    img.src = "./assets/imgs/sobre-nosotros.jpg";
 }

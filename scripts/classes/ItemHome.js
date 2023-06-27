@@ -1,4 +1,4 @@
-import { tag } from "../componentes/tag.js?n=2";
+import { tag } from "../componentes/tag.js?n=7";
 
 export class ItemHome{
 
@@ -13,8 +13,11 @@ export class ItemHome{
     videoSrc;
 
     construir(){
+
+        let path = window.location.pathname + this.imgSrc;
+
         this.contenedor.className = this.clase;
-        this.contenedor.style.backgroundImage = `url(${this.imgSrc}`;
+        this.contenedor.style.backgroundImage = `url(${path})`;
 
         const divI = tag("div", this.contenedor);
 

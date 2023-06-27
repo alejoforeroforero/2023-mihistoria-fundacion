@@ -1,6 +1,6 @@
-import { tag } from "../componentes/tag.js?n=2";
-import { bajarCss } from "../componentes/css.js?n=2";
-import { contenido } from "../classes/Contenido.js?n=2";
+import { tag } from "../componentes/tag.js?n=7";
+import { bajarCss } from "../componentes/css.js?n=7";
+import { contenido } from "../classes/Contenido.js?n=7";
 
 export function pintarContacto() {
   const enlace = "./scripts/secciones/contacto.css";
@@ -14,5 +14,5 @@ function dibujarContacto(){
     divC.className = "contacto";
 
     const img = tag("img", divC);
-    img.src = "../../assets/imgs/contacto-mockup.jpg";
+    img.src = "./assets/imgs/contacto-mockup.jpg";
 }

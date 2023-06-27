@@ -29,6 +29,13 @@ class Menu {
       window.location.href = "/#/about";
     });
 
+    const aC = tag("a", nav);
+    aC.innerHTML = "Consultoria";
+    aC.addEventListener("click", () => {
+      this.conmutarMenu();
+      window.location.href = "/#/consultoria";
+    });
+
     const aP = tag("a", nav);
     aP.innerHTML = "Contact";
     aP.addEventListener("click", () => {

@@ -8,5 +8,11 @@ export function pintarContacto() {
 }
 
 function dibujarContacto(){
-    contenido.main.innerHTML = "Contacto";
+    contenido.main.innerHTML = "";
+
+    const divC = tag("div", contenido.main);
+    divC.className = "contacto";
+
+    const img = tag("img", divC);
+    img.src = "../../assets/imgs/contacto-mockup.jpg";
 }

@@ -1,5 +1,5 @@
 header{
-    position: sticky;
+    position: fixed;
     width:100%;
     left:0px;
     top:0px;
@@ -10,7 +10,7 @@ header{
     align-items: center;
     color:rgb(255, 255, 255);
     font-family: DMSans,Helvetica,Arial,"Lucida Grande",sans-serif;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0);
     font-size: 30px;
 }
 
@@ -45,7 +45,7 @@ header>div:nth-child(2){
 }
 
 .hamburguesa>div{
-    border:1px solid rgb(59, 59, 59);
+    border:2px solid #f0571d;
     width:30px;
     height: 1px;
     margin-bottom: 3px;

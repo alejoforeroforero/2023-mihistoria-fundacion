@@ -5,6 +5,7 @@ import { tag } from "./componentes/tag.js?n=2";
 import { pintarHome } from "./secciones/home.js?n=2";
 import { pintarAbout } from "./secciones/about.js?n=2";
 import { pintarContacto } from "./secciones/contacto.js?n=2";
+import { pintarConsultoria } from "./secciones/consultoria.js?n=2";
 
 empezar();
 
@@ -36,9 +37,11 @@ function escogerSeccion() {
   if (nombrePagina === "#/home") {
     pintarHome();
   } else if (nombrePagina === "#/about") {
-    pintarAbout()
+    pintarAbout();
+  } else if (nombrePagina === "#/consultoria") {
+    pintarConsultoria();
   } else if (nombrePagina === "#/contacto") {
-    pintarContacto()
+    pintarContacto();
   } else {
     pintarHome();
   }

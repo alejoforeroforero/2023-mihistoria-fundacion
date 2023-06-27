@@ -11,20 +11,14 @@ class Header {
   pintarHeader() {
     const logoH = tag("div", this.headerC);
     logoH.className = "logo-header";
-    
-    this.pintarLogoHeader(logoH);
 
     const centroH = tag("div", this.headerC);
-    centroH.innerHTML = "Mi historia fundación (titulo)";
+    centroH.innerHTML = "";
 
     const loginH = tag("div", this.headerC);
     loginH.className = "header-menu";
 
     this.pintarMenu(loginH);
-  }
-
-  pintarLogoHeader(el) {
-    el.innerHTML = "(Logo)";
   }
 
   pintarMenu(el) {

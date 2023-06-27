@@ -11,9 +11,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    background-image: url("../assets/imgs/bg-web.jpg");
-    background-size: cover;
+    background-color: #3d0075;
 }
 
 main {

@@ -57,7 +57,7 @@ function dibujarHome(){
     micamino.titulo = "MI CAMINO";
     micamino.texto = "Es una serie de cómics interactivos cuyo objetivo es generar confianza y autoeficacia entre los NNA que viven en comunidades de alto riesgo en Colombia. Esto se debe a que los y las jóvenes en los márgenes del país, frente a contextos de violencia prolongada, pueden experimentar identidades negativas, lo que apuntala un pesimismo general sobre sus vidas y las oportunidades disponibles para ellos.";
     micamino.botonTxt = "Visitar";
-    micamino.enlace = "https://mihistoria.co/micamino";
+    micamino.enlace = "https://mihistoria.co/mi-camino";
     micamino.construir();
 
     const alguienC = tag('div', divH)

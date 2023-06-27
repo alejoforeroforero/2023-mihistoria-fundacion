@@ -8,5 +8,11 @@ export function pintarAbout() {
 }
 
 function dibujarAbout(){
-    contenido.main.innerHTML = "About";
+    contenido.main.innerHTML = "";
+
+    const divAbout = tag("div", contenido.main);
+    divAbout.className = "about";
+
+    const img = tag("img", divAbout);
+    img.src = "../../assets/imgs/sobre-nosotros.jpg";
 }

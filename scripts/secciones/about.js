@@ -1,6 +1,6 @@
-import { tag } from "../componentes/tag.js?n=7";
-import { bajarCss } from "../componentes/css.js?n=7";
-import { contenido } from "../classes/Contenido.js?n=7";
+import { tag } from "../componentes/tag.js?n=9";
+import { bajarCss } from "../componentes/css.js?n=9";
+import { contenido } from "../classes/Contenido.js?n=9";
 
 export function pintarAbout() {
   const enlace = "./scripts/secciones/about.css";

@@ -1,11 +1,11 @@
-import { header } from "./classes/Header.js?n=7";
-import { menu } from "./classes/Menu.js?n=7";
-import { contenido } from "./classes/Contenido.js?n=7";
-import { tag } from "./componentes/tag.js?n=7";
-import { pintarHome } from "./secciones/home.js?n=7";
-import { pintarAbout } from "./secciones/about.js?n=7";
-import { pintarContacto } from "./secciones/contacto.js?n=7";
-import { pintarConsultoria } from "./secciones/consultoria.js?n=7";
+import { header } from "./classes/Header.js?n=9";
+import { menu } from "./classes/Menu.js?n=9";
+import { contenido } from "./classes/Contenido.js?n=9";
+import { tag } from "./componentes/tag.js?n=9";
+import { pintarHome } from "./secciones/home.js?n=9";
+import { pintarAbout } from "./secciones/about.js?n=9";
+import { pintarContacto } from "./secciones/contacto.js?n=9";
+import { pintarConsultoria } from "./secciones/consultoria.js?n=9";
 
 empezar();
 

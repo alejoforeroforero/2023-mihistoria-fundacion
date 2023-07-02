@@ -1,4 +1,4 @@
-import { tag } from "../componentes/tag.js?n=7";
+import { tag } from "../componentes/tag.js?n=9";
 
 export class ItemHome{
 
@@ -6,6 +6,7 @@ export class ItemHome{
     titulo;
     texto;
     imgSrc;
+    poster;
     clase;
     fondoClase;
     color;
@@ -45,6 +46,7 @@ export class ItemHome{
         video.muted = true;
         video.loop = true;
         video.playsinline = true;
+        video.poster = this.poster;
     }
 
 }

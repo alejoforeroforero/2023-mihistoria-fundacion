@@ -54,7 +54,7 @@
 }
 
 .home-item > div > div:nth-child(2) {
-  width: 45% !important;
+  width: 45%;
 }
 
 .home-item > div > div:nth-child(2) div {
@@ -101,4 +101,68 @@
 
 .morado > div {
   background-color: rgba(244, 0, 245, 0.4);
+}
+
+@media only screen and (max-width: 800px) {
+  .home-item > div > div:nth-child(2) div {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 30%;
+    text-align: center;
+    height: 90%;
+    border-radius: 20px;
+  }  
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    min-height: auto;
+  }
+  
+  .home-item > div {
+    flex-wrap: wrap;
+  }
+
+  .home-item > div > div {
+    width: 100%;
+    color: #fff;
+  }
+
+  .home-item > div > div:nth-child(1) {
+    padding: 2% 2% !important;
+  }
+
+  .home-item > div > div:nth-child(1) h1 {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin: 10px 15px;
+  }
+  
+  .home-item > div > div:nth-child(1) p {
+    font-size: 1rem !important;
+    margin: 10px 15px;
+    text-align: justify;
+  }
+  
+  .home-item > div > div:nth-child(2) {
+    width: 100% !important;
+  }
+  
+  .home-item > div > div:nth-child(2) div {
+    position: relative !important;;
+    top: 0% !important;;
+    left: 0% !important;;
+    width: 100% !important;;
+    text-align: center !important;;
+    height: 100% !important;;
+    border-radius: 20px;
+  }
+
+  .home-item video {
+    height: auto !important;
+    width: 50% !important;
+    border-radius: 20px;
+  }
 }

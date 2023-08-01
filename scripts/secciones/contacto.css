@@ -1,6 +1,38 @@
 .contacto {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/imgs/fondo-horizontal.jpg?n=21");
+  background-size: cover;
+  color: #fff;
 }
 
-.contacto img {
-  width: 100%;
+.contacto h1{
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 4rem;
+}
+
+.contacto p{
+  width:100%;
+  padding: 10%;
+  color:#fff;
+  font-size: 1.3rem;
+}
+
+.contacto div{
+  text-align: center;
+}
+
+.contacto div img{
+  width:30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contacto h1 {
+    font-size: 2rem;
+  }
+
+  .contacto p {
+    font-size: 1rem;
+  }
 }

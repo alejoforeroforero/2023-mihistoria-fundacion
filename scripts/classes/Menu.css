@@ -4,7 +4,7 @@
   top: 50px;
   width: 180px;
   height: 250px;
-  background-color: #fafafa;
+  background-color: #FFED29;
   z-index: 110;
   opacity: 0;
   visibility: hidden;
@@ -26,7 +26,7 @@
 
 .menu:after {
   border-color: rgba(136, 183, 213, 0);
-  border-left-color: #fafafa;
+  border-left-color: #FFED29;
   border-width: 10px;
   margin-top: -10px;
   rotate: -90deg;
@@ -38,7 +38,6 @@
     right: 5%;
     width: 93%;
     height: 250px;
-    background-color: #fafafa;
     z-index: 110;
     opacity: 0;
     visibility: hidden;

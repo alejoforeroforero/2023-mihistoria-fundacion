@@ -1,5 +1,5 @@
-import { bajarCss } from "../componentes/css.js?n=9";
-import { tag } from "../componentes/tag.js?n=9";
+import { bajarCss } from "../componentes/css.js?n=21";
+import { tag } from "../componentes/tag.js?n=21";
 
 
 class Menu {
@@ -18,17 +18,17 @@ class Menu {
     const nav = tag("nav", this.menuC);
 
     const aH = tag("a", nav);
-    aH.innerHTML = "Home";
+    aH.innerHTML = "Inicio";
     aH.addEventListener("click", () => {
       this.conmutarMenu();
-      window.location.href = `${path}#/home`;
+      window.location.href = `${path}#/incio`;
     });
 
     const a = tag("a", nav);
-    a.innerHTML = "About";
+    a.innerHTML = "Acerca de nosotros";
     a.addEventListener("click", () => {
       this.conmutarMenu();
-      window.location.href = `${path}#/about`;;
+      window.location.href = `${path}#/acerca-de-nosotros`;;
     });
 
     const aC = tag("a", nav);
@@ -39,7 +39,7 @@ class Menu {
     });
 
     const aP = tag("a", nav);
-    aP.innerHTML = "Contact";
+    aP.innerHTML = "Contacto";
     aP.addEventListener("click", () => {
       this.conmutarMenu();
       window.location.href = `${path}#/contacto`;

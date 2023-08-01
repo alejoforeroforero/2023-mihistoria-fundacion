@@ -1,3 +1,11 @@
+.video-prueba{
+  width:100px;
+}
+
+.video-prueba2{
+  width:400px;
+}
+
 .hero {
   min-height: 80vh;
   overflow: hidden;
@@ -32,6 +40,10 @@
   color: #fff;
 }
 
+.home-item > div > div > div {
+  text-align: center;
+}
+
 .home-item > div > div:nth-child(2) {
   display: flex;
   justify-content: center;
@@ -42,15 +54,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 2% 10%;
+  padding: 2% 3%;
+  margin: 3% 5%;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-item > div > div:nth-child(1) > div {
+  text-align: center;
+  margin: 20px;
 }
 
 .home-item > div > div:nth-child(1) h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .home-item > div > div:nth-child(1) p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .home-item > div > div:nth-child(2) {
@@ -72,23 +92,28 @@
   border-radius: 20px;
 }
 
-.home-item a{
+.home-item a {
   font-size: 1.4rem;
-  background-color: rgb(102, 119, 119);
-  color:#fff;
+  background-color: rgb(227, 253, 57);
+  color: #fb5a5a;
   padding: 4px 9px;
   border-radius: 12px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  width: 200px;
+}
+
+.home-item a:hover {
+  background-color: rgb(125, 242, 249);
 }
 
 .azul > div {
-  background-color: rgba(17, 205, 250, 0.6);
+  background-color: rgba(17, 205, 250, 0.8);
 }
 
 .amarillo > div {
-  background-color: rgba(255, 200, 9, 0.4);
+  background-color: rgba(216, 197, 131, 0.8);
 }
 
 .naranja > div {
@@ -112,18 +137,29 @@
     text-align: center;
     height: 90%;
     border-radius: 20px;
-  }  
-  
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .hero {
     min-height: auto;
   }
-  
+
+  .home-item {
+    margin-bottom: 50px !important;
+    background-size: 600%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+
   .home-item > div {
     flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 60px;
   }
+
+  
 
   .home-item > div > div {
     width: 100%;
@@ -132,6 +168,7 @@
 
   .home-item > div > div:nth-child(1) {
     padding: 2% 2% !important;
+    min-height: 400px;
   }
 
   .home-item > div > div:nth-child(1) h1 {
@@ -139,24 +176,24 @@
     text-align: center;
     margin: 10px 15px;
   }
-  
+
   .home-item > div > div:nth-child(1) p {
     font-size: 1rem !important;
     margin: 10px 15px;
     text-align: justify;
   }
-  
+
   .home-item > div > div:nth-child(2) {
     width: 100% !important;
   }
-  
+
   .home-item > div > div:nth-child(2) div {
-    position: relative !important;;
-    top: 0% !important;;
-    left: 0% !important;;
-    width: 100% !important;;
-    text-align: center !important;;
-    height: 100% !important;;
+    position: relative !important;
+    top: 10% !important;
+    left: 0% !important;
+    width: 100% !important;
+    text-align: center !important;
+    height: 100% !important;
     border-radius: 20px;
   }
 
@@ -165,4 +202,9 @@
     width: 50% !important;
     border-radius: 20px;
   }
+
+  .azul  {
+    margin-top: 40px;
+  }
+  
 }

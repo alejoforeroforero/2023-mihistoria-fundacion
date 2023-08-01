@@ -1,6 +1,38 @@
 .consultoria {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/imgs/fondo-horizontal.jpg?n=21");
+  background-size: cover;
+  color: #fff;
 }
 
-.consultoria img {
-  width: 100%;
+.consultoria h1{
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 4rem;
+}
+
+.consultoria p{
+  width:100%;
+  padding: 10%;
+  color:#fff;
+  font-size: 1.3rem;
+}
+
+.consultoria div{
+  text-align: center;
+}
+
+.consultoria div img{
+  width:30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .consultoria h1 {
+    font-size: 2rem;
+  }
+
+  .consultoria p {
+    font-size: 1rem;
+  }
 }

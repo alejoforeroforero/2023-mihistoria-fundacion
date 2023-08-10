@@ -1,6 +1,6 @@
-import { tag } from "../componentes/tag.js?n=21";
-import { bajarCss } from "../componentes/css.js?n=21";
-import { contenido } from "../classes/Contenido.js?n=21";
+import { tag } from "../componentes/tag.js?n=36";
+import { bajarCss } from "../componentes/css.js?n=36";
+import { contenido } from "../classes/Contenido.js?n=36";
 
 export function pintarConsultoria() {
   // const enlace = "./scripts/secciones/consultoria.css";
@@ -13,6 +13,7 @@ function dibujarConsultoria() {
   contenido.main.innerHTML = "";
 
   const divAbout = tag("div", contenido.main);
+  divAbout.style.animation = "mostrar 3s ease-out forwards";
   divAbout.className = "about";
 
   const headerP = tag("section", divAbout);
@@ -20,14 +21,14 @@ function dibujarConsultoria() {
   const divImgH = tag("div", headerP);
 
   const imgH = tag("img", divImgH);
-  imgH.src = "./assets/imgs/logo-fundacion.png?n=21";
+  imgH.src = "./assets/imgs/logo-fundacion.png?n=36";
 
   const contenidoAbout = tag("section", divAbout);
 
   const divImg1 = tag("div", contenidoAbout);
 
   const img = tag("img", divImg1);
-  img.src = "./assets/imgs/reportero-lados.png?n=21";
+  img.src = "./assets/imgs/reportero-lados.png?n=36";
 
   const divTexto = tag("div", contenidoAbout);
 
@@ -35,7 +36,7 @@ function dibujarConsultoria() {
 
   const divImg2 = tag("div", contenidoAbout);
   const im2 = tag("img", divImg2);
-  im2.src = "./assets/imgs/reportero1.png?n=21";
+  im2.src = "./assets/imgs/reportero1.png?n=36";
 }
 
 function ponertextoAbout(divTexto) {

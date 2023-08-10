@@ -10,6 +10,8 @@
   visibility: hidden;
   box-shadow: 0px 0px 8px rgb(70, 70, 70);
   color: #666;
+  background-image: url('./assets/imgs/bg-menu.jpg?n=34');
+  background-size: cover;
 }
 
 .menu:after,

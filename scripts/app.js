@@ -1,11 +1,11 @@
-import { header } from "./classes/Header.js?n=21";
-import { menu } from "./classes/Menu.js?n=21";
-import { contenido } from "./classes/Contenido.js?n=21";
-import { tag } from "./componentes/tag.js?n=21";
-import { pintarHome } from "./secciones/home.js?n=21";
-import { pintarAbout } from "./secciones/about.js?n=21";
-import { pintarContacto } from "./secciones/contacto.js?n=21";
-import { pintarConsultoria } from "./secciones/consultoria.js?n=21";
+import { header } from "./classes/Header.js?n=36";
+import { menu } from "./classes/Menu.js?n=36";
+import { contenido } from "./classes/Contenido.js?n=36";
+import { tag } from "./componentes/tag.js?n=36";
+import { pintarHome } from "./secciones/home.js?n=36";
+import { pintarAbout } from "./secciones/about.js?n=36";
+import { pintarContacto } from "./secciones/contacto.js?n=36";
+import { pintarConsultoria } from "./secciones/consultoria.js?n=36";
 
 empezar();
 
@@ -59,16 +59,20 @@ function pintarFooter(){
 
   const enlaces = [
     {
-      img:"./assets/imgs/f1.png?n=21",
+      img:"./assets/imgs/f1.png?n=36",
+      enlace:"https://www.facebook.com/MiHistoriaCo/"
+    },
+    {
+      img:"./assets/imgs/f2.png?n=36",
       enlace:"https://www.instagram.com/mihistoriaco/"
     },
     {
-      img:"./assets/imgs/f2.png?n=21",
-      enlace:"https://www.instagram.com/mihistoriaco/"
+      img:"./assets/imgs/f3.png",
+      enlace:"https://twitter.com/MiHistoriaCo/"
     },
     {
-      img:"./assets/imgs/f3.png?n=21",
-      enlace:"https://www.instagram.com/mihistoriaco/"
+      img:"./assets/imgs/f4.png",
+      enlace:"https://www.youtube.com/@mihistoriaco/"
     }
   ]
 

@@ -1,4 +1,4 @@
-import { tag } from "../componentes/tag.js?n=21";
+import { tag } from "../componentes/tag.js?n=36";
 
 export class ItemHome {
   contenedor;

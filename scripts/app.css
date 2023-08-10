@@ -41,7 +41,7 @@ footer img {
 .about {
   width: 100%;
   min-height: 400px;
-  background-image: url("../assets/imgs/fondo-horizontal.jpg?n=21");
+  background-image: url("../assets/imgs/fondo-horizontal.jpg?n=36");
   background-size: cover;
   color: #fff;
 }
@@ -157,6 +157,14 @@ footer img {
   .about ol {
     font-size: 1rem;
   }
-  
 
+}
+
+@keyframes mostrar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
